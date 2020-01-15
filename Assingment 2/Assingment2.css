@@ -1,0 +1,139 @@
+body{
+    background-color: #ffe6e6;
+    background-color: #ffe6cc;
+}
+
+.row{
+    display: flex;
+    width: 100%;    
+}
+
+.row::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+*{
+    box-sizing: border-box;
+}
+
+div.container{
+    margin: 100px 140px ;
+} 
+div.box{
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1),
+    0 0 45px 0px rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    text-align: center;
+    background: linear-gradient(to right,#ffcccc,#ffffff);
+    background: linear-gradient(to right,#ffd9b3,#ffffff);
+}
+#title{
+    font-weight: 20px;
+    font-size: 250%;
+}
+div.inp{
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.5);
+    width: 55%;
+    height: 35px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #ffcccc;
+    background-color: #ffd9b3;
+    margin: auto;
+    
+}
+#searchplace{
+    margin-top: 30px;
+}
+
+.inputval{
+    height: 30px;
+    border-radius: 7px;
+    width: 50%;
+    margin-left: 25%;
+}
+.button{
+    height: 30px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    margin-left: 10%;
+}
+/* ############  Images  ################ */
+
+img.imge{
+    font-size: 18px;
+    width: 23px;
+    height: auto;
+}
+#leftimages{
+    display: block;
+    margin: auto;
+    padding-right: 70px;
+}
+img.imge1{
+    width: 25px;
+    height: auto;
+}
+#img1{
+    margin-left: 50px;
+}
+.dataimage{
+    float: right;
+    height: 60%;
+    width: auto;
+
+}
+
+#col3image{
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+img.col3image2{
+    height: auto;
+    width: 70%;
+    /* padding-bottom: 15%; */
+    border-radius: 50%;
+}
+.degree{
+    text-align: left;
+    margin: 0;
+    padding-left: 5px;
+}
+
+
+/* ########  main 2 column  ####### */
+
+
+#main2col{
+    margin: auto;
+    padding-left: 40%;
+    padding-top: 10%;
+}
+.lineimage2col{
+    padding-left: 20%;
+    width: 50%;
+    height: 85%;
+}
+.winter2col{
+    padding-left: 43%;
+}
+.num2col{
+    font-size: 60px;
+    margin: 0;
+}

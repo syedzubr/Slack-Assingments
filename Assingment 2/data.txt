@@ -1,0 +1,54 @@
+coord:
+lon: -0.13
+lat: 51.51
+__proto__: Object
+weather: Array(2)
+0:
+id: 300
+main: "Drizzle"
+description: "light intensity drizzle"
+icon: "09n"
+__proto__: Object
+1:
+id: 501
+main: "Rain"
+description: "moderate rain"
+icon: "10n"
+__proto__: Object
+length: 2
+__proto__: Array(0)
+base: "stations"
+main:
+temp: 280.99
+feels_like: 278.77
+temp_min: 279.15
+temp_max: 283.71
+pressure: 1000
+humidity: 93
+__proto__: Object
+visibility: 3700
+wind:
+speed: 2.1
+deg: 230
+__proto__: Object
+rain:
+1h: 1.52
+__proto__: Object
+clouds:
+all: 100
+__proto__: Object
+dt: 1579069435
+sys:
+type: 1
+id: 1414
+country: "GB"
+sunrise: 1579075194
+sunset: 1579105145
+__proto__: Object
+timezone: 0
+id: 2643743
+name: "London"
+cod: 200
+__proto__: Object
+﻿
+​
